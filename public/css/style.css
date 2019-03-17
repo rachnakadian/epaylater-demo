@@ -1,0 +1,208 @@
+html {
+    height: 100%;
+}
+
+body {
+	background-color: #fff;
+    color: #717171;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+
+.header {
+	background-color: black;
+    height: 40px;
+    padding: 10px;
+    box-shadow: 0px 4px 4px #999;
+    color: white;
+}
+.header .left-section {
+	float: left;
+    line-height: 40px;
+    font-size: 20px;
+}
+.header .right-section {
+	float: right;
+    line-height: 40px;
+}
+.header .right-section .image-sec {
+	width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.header .right-section .image-sec img {
+	display: block;
+    width: 100%;
+    margin: 0px;
+    vertical-align: middle;
+}
+.header .right-section .info-sec {
+	float: left;
+}
+.header .right-section .info-sec .userInfo-name {
+	font-size: 14px;
+    line-height: 12px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    float: left;
+}
+.header .right-section .info-sec .logout-sec {
+	
+}
+.header .right-section .info-sec .logout-sec button {
+	display: block;
+    border: 1px solid #8b8a8b;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0px 9px;
+    line-height: 20px;
+    background-color: transparent;
+}
+.search-sec {
+    
+}
+.search-sec .head {
+    display: inline-block;
+}
+.search-sec .form-sec {
+    padding: 10px;
+}
+.search-sec .radio-input-sec {
+    padding: 5px 5px;
+}
+.search-sec .radio-sec label {
+    
+}
+.search-sec ul {
+    display: inline-block;
+    margin: 0;
+}
+.search-sec ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+.search-sec .input-sec {
+    padding: 5px;
+}
+.search-sec .input-sec input{
+    width: 50%;
+    line-height: 32px;
+    height: 32px;
+    font-size: 20px;
+    font-family: "Roboto",sans-serif;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    position: relative;
+    display: inline-block;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 0px 5px;
+}
+.search-sec .input-sec button {
+    line-height: 34px;
+    height: 34px;
+    display: inline-block;
+    background: #4285F4;
+    border: 1px solid #4285F4;
+    color: #fff;
+    padding-top: -4px;
+    font-size: 12px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    border-left: 0;
+    outline: none;
+}
+.search-results {
+    padding: 10px;
+}
+.search-results .book-col {
+    display: inline-block;
+    width: 45%;
+    border: 1px solid;
+    margin-right: 2%;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.search-results .book-col .title {
+    display: block;
+}
+.detail-sec {
+    height: 100%;
+    float: left;
+    width: 100%;
+    padding: 30px 10px;
+}
+.detail-sec .img-sec {
+    float: left;
+    margin-right: 12px;
+}
+.detail-sec .right-sec {
+    float: left;
+}
+.detail-sec  .book-title {
+    display: block;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.detail-sec .book-title a{
+    text-decoration: none;
+    color: black;
+}
+
+.detail-sec .right-sec .book-title a:hover {
+    text-decoration: underline;
+}
+.detail-sec .right-sec .book-fields {
+    display: block;
+}
+.login-sec {
+	display: block;
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 25%;
+}
+.login-sec button {
+	padding: 10px;
+    background: black;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+.login-sec button img {
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 20px;
+}
