@@ -14,3 +14,9 @@ npm install
 npm start 
 
 Will start webpack dev server at port 5000
+
+
+
+## Google login 
+
+Please replace <CLIENT_ID> in src/components/login.js and src/components/header.js with your google client Id
